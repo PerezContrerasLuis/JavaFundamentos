@@ -19,7 +19,7 @@ public class VentanaPrincipal extends JFrame implements ActionListener{
 		this.setVisible(true);
 	}
 	
-	public void definirVentana() {
+	public  void definirVentana() {
 		jbtn_boton = new JButton("Enviar");
 		jtxf_texto = new JTextField(20);
 		jlb_etiqueta = new JLabel();
